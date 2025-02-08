@@ -1,0 +1,17 @@
+const videoContainer = document.getElementById('video-container');
+const channelID = 'UC9XXXXX';  // Ersetze mit deiner YouTube Channel ID
+const apiKey = 'DEIN_YOUTUBE_API_KEY';  // YouTube API Key einfügen
+const maxVideos = 3;
+
+async function loadVideos() {
+    const response = await fetch(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelID}&part=snippet,id&order=date&maxResults=${maxVideos}`);
+    const data = await response.json();
+    
+    data.items.forEach(item => {
+        const videoId = item.id.videoId;
+        const videoFrame = `<iframe width="300" height="200" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>`;
+        videoContainer.innerHTML += videoFrame;
+    });
+}
+
+loadVideos();

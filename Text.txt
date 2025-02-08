@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MosGaming - Brawl Stars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen bei MosGaming!</h1>
+        <p>Dein Kanal für Brawl Stars Inhalte</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#verlosungen">Verlosungen</a></li>
+            <li><a href="#social">Social Media</a></li>
+        </ul>
+    </nav>
+
+    <section id="videos">
+        <h2>Neueste YouTube-Videos</h2>
+        <div id="video-container"></div>
+    </section>
+
+    <section id="verlosungen">
+        <h2>Verlosungen</h2>
+        <p>Bald starten wir mit spannenden Verlosungen! Bleib dran!</p>
+    </section>
+
+    <section id="social">
+        <h2>Folge mir auf Social Media</h2>
+        <a href="https://youtube.com/@mosgaming-brawlstars" target="_blank">YouTube</a>
+        <a href="https://www.tiktok.com/@dein-tiktok" target="_blank">TikTok</a>
+    </section>
+
+    <footer>
+        <p>© 2025 MosGaming - Alle Rechte vorbehalten</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
