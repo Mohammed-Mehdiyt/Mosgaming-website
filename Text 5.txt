@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e2e;
+    color: white;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    color: black;
+}
+
+h1, h2 {
+    color: #ffcc00;
+}
+
+a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.video-container {
+    margin: 20px auto;
+}
